@@ -1,0 +1,36 @@
+::-webkit-datetime-edit-year-field:not([aria-valuenow]),
+::-webkit-datetime-edit-month-field:not([aria-valuenow]),
+::-webkit-datetime-edit-day-field:not([aria-valuenow]) {
+    color: transparent;
+}
+
+::-webkit-input-placeholder {
+   text-align: left;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: left;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: left;
+}
+
+:-ms-input-placeholder {
+   text-align: left;
+}
+
+.MuiInputBase-root > div:not(.MuiInputAdornment-root){
+  width:100%;
+  z-index: 10;
+}
+
+input {
+  width:100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline:none;
+  border-bottom: 1px solid lightgray;
+  font-size: 2vh;
+}
